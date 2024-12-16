@@ -1,3 +1,5 @@
+#1. Two Sum
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)-1):
@@ -6,4 +8,3 @@ class Solution:
                 ind = [i,i+1]
                 return ind
 
-        
